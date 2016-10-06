@@ -1,0 +1,13 @@
+# Sample Rails app with isomorphic React components
+
+This is a simple proof-of-concept Rails app that uses the 1.x prerelease version of the [react-rails gem], which lets us:
+
+- render
+- mount the same React component on top of the server-rendered DOM client side (via an unobtrusive JS adapter)
+
+To get the app running:
+
+- bundle install
+- rake db:migrate
+- rake db:seed
+- rails server
